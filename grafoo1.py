@@ -10,9 +10,9 @@ class Grafo:
         return nuevoVertice
 
     def obtenerVertice(self,n):
-        if n in self.listaVertices:
+        if = n in self.listaVertices:
             return self.listaVertices[n]
-        else:
+        else: 
             return None
 
     def __contains__(self,n):     # contiene los vertices
@@ -28,5 +28,5 @@ class Grafo:
     def obtenerVertices(self):
         return self.listaVertices.keys()
 
-    def __iter__(self):        # El método iter () devuelve un iterador para el objeto dado.
+    def __iter__(self):        # El mÃ©todo iter () devuelve un iterador para el objeto dado.
         return iter(self.listaVertices.values())
