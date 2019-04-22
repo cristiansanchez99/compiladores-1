@@ -12,7 +12,7 @@ class Vertice:
 		
 	def agregarVecino(self, vecino, costo):
 		if isVecino(vecino):
-        	self.listaVertices[getNombre].append(costo)
+        	self.listaVertices[vecino.getNombre()].append(costo)
 
     def isVecino(self,vecino):
-    	return vecino.nombre in vecinos.keys()
+    	return vecino.getNombre() in vecinos.keys()
